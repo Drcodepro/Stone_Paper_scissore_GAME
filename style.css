@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    text-align:center;
+    background-color:#2f583d;
+    color: white;
+}
+
+#gameContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+#gameHeading{
+      background-color:black;
+      color:white;
+      height:70px;
+      line-height:70px;
+}
+
+#choices{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    margin:40px;
+}
+
+.choice{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border : solid black 1px;
+}
+
+img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+img:hover{
+    opacity:0.8;
+    box-shadow:0 0 3px 1px black;
+    cursor:pointer;
+}
+
+#scoreBoard{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#yourScoreContainer{
+    margin-right:30px;
+    font-size:27px;
+    font-weight:600;
+}
+
+#computerScoreContainer{
+    margin-left:30px;
+    font-size:27px;
+    font-weight:600;
+}
+
+#msg{
+   background-color: rgb(0, 0, 0);
+   width:fit-content;
+   padding:10px;
+   margin:40px ;
+   height:fit-content;
+   line-height:40px;
+   text-align:center;
+   font-size:x-large;
+   font-weight:500;
+   border-radius:10px;
+}
+
+#newGame{
+    background-color: rgb(220, 20, 20);
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 50px;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
